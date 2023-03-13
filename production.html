@@ -10,7 +10,8 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
-    h1 {
+    h1,
+    h2 {
       font-family: 'Tilt Warp', cursive;
     }
   </style>
@@ -27,9 +28,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="production.html">Production</a>
-            <a class="nav-link" href="chemical.html">Chemical</a>
+            <a class="nav-link" href="index.html">🏠 Home</a>
+            <a class="nav-link" href="production.html">💧 Production</a>
+            <a class="nav-link" href="chemical.html">🧪 Chemical</a>
           </div>
         </div>
       </div>
@@ -39,6 +40,7 @@
   <div class="container">
     <div class="row text-center mt-3 mb-3">
       <h1>Jumlah Produksi Air Minum Tahun 2022</h1>
+      <h2>SPAM Cimahi Utara</h2>
     </div>
     <div class="row">
       <div class="col">
@@ -63,7 +65,7 @@
       data: {
         labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
         datasets: [{
-          label: 'Produksi Air Minum (m3)',
+          label: 'Produksi Air Minum 2022 (m3)',
           data:
             [123333,
               113918,
@@ -77,6 +79,23 @@
               127620,
               128700,
               133920],
+          borderWidth: 1
+        },
+        {
+          label: 'Produksi Air Minum 2021 (m3)',
+          data:
+            [105115,
+              98264,
+              111768,
+              110210,
+              115004,
+              111713,
+              114502,
+              120660,
+              120652,
+              122106,
+              117228,
+              122500],
           borderWidth: 1
         }]
       },
